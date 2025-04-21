@@ -13,7 +13,7 @@ from database.DatabaseSystem import *
 class AI:
     def __init__(self, inventory_system):
         self.inventory_system = inventory_system
-        self.api_key_gemini = "AIzaSyChLURtLM1Ldq_hl_6rj3IFB3AQpV-KoKE"
+        self.api_key_gemini = # ADD API CODE HERE
         self.api_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={self.api_key_gemini}"
         # ----------------------------------------
         

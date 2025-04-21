@@ -24,68 +24,17 @@ We focused on establishing the core product data model and implementing fundamen
 
 - **Relevancy System**: If a traditional search yields no results, our relevancy system powered by *Google Gemini 1.5 Flash* will recommend inventory items relevant to what the user had searched.
 
-## Setup
+## Embedded AI Assistant
+In order to use the project's embedded artifical intelligence assistant, you must visit google's [ai studio](https://aistudio.google.com/app/apikey) and generate an API key. Then, navigate to python_/code/ai/AI.py and replace the commented code on line 16 with your generated API key.
 
-### Method 1 (Windows & Linux)
+## Collaborators 
+- # Nathan Tandory
 
-1. **Install `main.exe` from [Google Drive](https://drive.google.com/file/d/16scsfChKEYHgWdO19UaBUD2ns5oAubhD/view?usp=drive_link).**
+- # Myron Lobo
 
-2. **Run `main.exe` file.**
- - For Linux, `.exe` files are not supported however can be run using *Wine* or another comparable program.
- - It is recommended to keep `main.exe` in a seperate folder for orgranization, as the *database* and *activity log* file will be created in the same directory.
+- # Zayam Khan
 
-### Method 2
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/nathanzyx/CodeByte.git
-    ```
-
-2. **Navigate into the project directory:**
-    ```bash
-    cd Codebyte
-    ```
-
-3. **Run `make setup` to install the required dependicies:**
-    ```bash
-    make setup
-    ```
-
-4. **Run `make run` to start the application:**
-    ```bash
-    make run
-    ```
-
-5. **Run `make clean` to remove unnecessary files:**
-    ```bash
-    make clean
-    ```
-
-### Usage
-
--   **Adding a Product:**
-    -   Navigate to the "Add Product" page.
-    -   Fill in the product details and submit.
--   **Deleting Products:**
-    - Navigate to the "Remove Product" page.
-    - Enter the product ID and the quantity to be removed.
-    - Submit to remove the specified product quantity.
-
-### Implemented User Stories (Iteration 1)
-
-* P0: Remove Products from Database
-* P0: Add Products to Database
-* P0: Product Focused Database
-
-### Next Steps (Goals for Iteration 2)
-
--   Implement product updating functionality.
--   Implement advanced search and filtering options.
--   Implement user authentication and basic admin login.
-### Iteration 3  
--   Relevancy System
--   Activity Log
--   AI Feature
+- # Derrin Manoj
 
 
 
