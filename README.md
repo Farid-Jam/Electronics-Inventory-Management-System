@@ -1,7 +1,7 @@
-# Electronics Inventory Management System
+# SmartStocker
 
 ## Overview
-The **Electronics Inventory Management System** is a software application designed to help store operators efficiently manage electronic product inventory. It allows users to **add, update, remove, and search for products** in a centralized database.
+**SmartStocker** is a software application designed to help store operators efficiently manage electronic product inventory. It allows users to **add, update, remove, and search for products** in a centralized database.
 
 We focused on establishing the core product data model and implementing fundamental CRUD (Create, Read, Update, Delete) functionality for inventory items, specifically the ability to add and remove products from the database. At its core the program performs the following.
 
